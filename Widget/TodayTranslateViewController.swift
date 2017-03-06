@@ -240,8 +240,8 @@ class TodayTranslateViewController: UIViewController, NCWidgetProviding {
         return strSize.height
     }
     
+    // 监控 Widget 展开收起按钮
     func widgetActiveDisplayModeDidChange( _ activeDisplayMode: NCWidgetDisplayMode, withMaximumSize maxSize: CGSize) {
-        //Show more/less button event
         if (activeDisplayMode == NCWidgetDisplayMode.compact) {
             self.preferredContentSize = CGSize(width: 0, height: 100)
             print("@@收起了")
