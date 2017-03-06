@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.3.0)
+  - CryptoSwift (0.6.7)
+  - SnapKit (3.2.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - CryptoSwift
+  - SnapKit (~> 3.2.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  CryptoSwift: 685ae257941e5447474348a2b545583e1a16b573
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 9d64eac487dbf026d3b58d23a56865db8ca8a11e
+
+COCOAPODS: 1.2.0
