@@ -225,7 +225,8 @@ class TodayTranslateViewController: UIViewController, NCWidgetProviding {
     func getExplains(_ searchUrl:String) {
         Alamofire.request(searchUrl).response { response in
             if let translateData = response.data {
-                _ = self.baiduJson(translateData)
+                let _ = self.baiduJson(translateData)
+                print("dddd\(translateData)")
                 // Swift 3.0 中方法的返回值必须有接收否则会报警告，但是有些情况下确实不需要使用返回值可以使用"_"接收来忽略返回值。
             }
         }
